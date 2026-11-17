@@ -15,6 +15,16 @@ This repository turns the following internship responsibilities into working, de
 | Efficient SQL, exception handling, service-layer logic | indexed/FK-backed Flyway schema in `db/migration/V1__init.sql`, `exceptions/GlobalExceptionHandler.java`, `services/impls/*` |
 | Unit testing with JUnit and API validation via Postman | `backend/src/test/`, `postman/PulseChat.postman_collection.json` |
 
+## Screenshots
+
+| Sign in | Register |
+| --- | --- |
+| ![PulseChat sign-in page](docs/screenshots/login.png) | ![PulseChat registration page](docs/screenshots/register.png) |
+
+![PulseChat chat screen showing the conversation list and a message thread](docs/screenshots/chat.png)
+
+*The chat screenshot uses seeded demo accounts (`alice_demo` and `bob_demo`); run the app yourself to chat with your own accounts.*
+
 ## Features (v1)
 
 - Email/password sign-up and sign-in, BCrypt hashing, JWT issuance.
